@@ -1,0 +1,95 @@
+/* General Reset */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    gap: 15px;
+}
+
+header nav a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+header nav a:hover {
+    color: #ffa500;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
+#top-news {
+    margin-bottom: 40px;
+}
+
+#top-news h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.news-item img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.news-item h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.news-item p {
+    font-size: 16px;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.category h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+.category p {
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
